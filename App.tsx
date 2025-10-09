@@ -8,6 +8,7 @@ import AboutSection from './components/AboutSection';
 import CtaSection from './components/CtaSection';
 import Footer from './components/Footer';
 import TestimonialsSection from './components/TestimonialsSection';
+import FaqSection from './components/FaqSection';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <PortfolioSection />
         <AboutSection />
         <TestimonialsSection />
+        <FaqSection />
         <CtaSection />
       </main>
       <Footer />

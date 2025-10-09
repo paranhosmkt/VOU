@@ -19,12 +19,14 @@ const HeroSection: React.FC = () => {
             <p className="text-lg md:text-xl max-w-3xl mx-auto text-brand-gray mb-8">
             Um rebranding completo para posicionar sua marca como líder de mercado, com identidade forte e uma voz inesquecível.
             </p>
-            <button
-            onClick={scrollToServices}
-            className="bg-gradient-to-r from-brand-purple to-brand-blue text-white font-bold text-lg py-4 px-10 rounded-md hover:opacity-90 transition-transform duration-300 transform hover:scale-105"
-            >
-            Descubra Como
-            </button>
+           <a
+    href="https://wa.me/5548999542785?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20transformar%20minha%20marca%20para%20gerar%20impacto." // <-- COLOQUE O LINK DESEJADO AQUI
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="bg-gradient-to-r from-brand-purple to-brand-blue text-white font-bold text-lg py-4 px-10 rounded-md hover:opacity-90 transition-transform duration-300 transform hover:scale-105"
+>
+    Descubra Como
+</a>
       </div>
     </section>
   );

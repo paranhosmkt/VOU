@@ -21,7 +21,7 @@ const AboutSection: React.FC = () => {
                             Nossa equipe combina pensamento estratégico com design criativo para entregar soluções de rebranding que geram resultados reais. Não se trata apenas de um novo logo; trata-se de contar sua história de uma forma que inspire e cative seu público.
                         </p>
                          <a
-                            href="#contact"
+                            href="https://wa.me/5548999542785?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20transformar%20minha%20marca%20para%20gerar%20impacto."
                             onClick={(e) => {
                                 e.preventDefault();
                                 document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });

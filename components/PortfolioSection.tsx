@@ -1,65 +1,83 @@
 import React from 'react';
 import { ArrowUpRightIcon } from './icons';
 
-const projects = [
+const portfolioItems = [
   {
-    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80',
-    category: 'Branding & Identidade Visual',
-    title: 'Fintech Disruptiva',
-    description: 'Rebranding completo para uma fintech, focando em confiança, tecnologia e uma experiência de usuário simplificada.'
+    image: "https://i.postimg.cc/BbCfbcQj/Pety.png",
+    category: "Branding & Identidade Visual",
+    title: "PETY",
+    description: "Criamos uma marca divertida e que se conecta com a ideia de felicidade dos pets e como eles colorem nossa vida.",
+    link: "https://drive.google.com/file/d/15T06049cbhsETSSf7jclTXtKjWQpYf1P/view?usp=drive_link"
   },
   {
-    image: 'https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-    category: 'Posicionamento Digital',
-    title: 'Marca de Moda Sustentável',
-    description: 'Criação de identidade e estratégia de conteúdo para redes sociais, gerando autoridade e engajamento no nicho de moda consciente.'
+    image: "https://i.postimg.cc/nh0tKkJS/ll.png",
+    category: "Posicionamento Digital",
+    title: "L&L Boutique",
+    description: "Mais que uma boutique, um estilo de vida luxuoso e elegante.",
+    link: "https://drive.google.com/file/d/15T06049cbhsETSSf7jclTXtKjWQpYf1P/view?usp=drive_link"
   },
   {
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-    category: 'Estratégia de Marca',
-    title: 'Startup de EdTech',
-    description: 'Desenvolvimento de uma nova marca a partir do zero, incluindo naming, identidade visual e estratégia de lançamento no mercado.'
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    category: "Rebranding Completo",
+    title: "VOU",
+    description: "A VOU era uma agência de marketing digital, hoje a VOU transforma marcas.",
+    link: "https://drive.google.com/file/d/15T06049cbhsETSSf7jclTXtKjWQpYf1P/view?usp=drive_link"
+  },
+  {
+    image: "https://i.postimg.cc/prkL9n2v/Gemini-Generated-Image-myazzimyazzimyaz.png",
+    category: "Material de Marca",
+    title: "Yalla Consórcio",
+    description: "Design de materiais corporativos, incluindo brochures e apresentações, que comunicam confiança e profissionalismo.",
+    link: "https://drive.google.com/file/d/1lxREPW-aVo0NPyhM9cImOGSfHU2jwpdi/view?usp=sharing"
   },
 ];
 
-const PortfolioCard: React.FC<typeof projects[0]> = ({ image, category, title, description }) => {
-    return (
-        <div className="group relative overflow-hidden rounded-lg shadow-lg border border-gray-800/50">
-            <img src={image} alt={title} className="w-full h-96 object-cover transform transition-transform duration-500 ease-in-out group-hover:scale-110" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent transition-opacity duration-300"></div>
-            <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                <div>
-                    <p className="text-sm font-medium text-brand-blue uppercase tracking-wider">{category}</p>
-                    <h3 className="text-2xl font-heading font-bold text-white mt-1">{title}</h3>
-                </div>
-                <div className="max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-500 ease-in-out mt-2 overflow-hidden">
-                    <p className="text-brand-gray text-sm mb-4">{description}</p>
-                    <a href="#" className="inline-flex items-center text-white font-semibold hover:text-brand-blue transition-colors duration-300">
-                        Ver Projeto <ArrowUpRightIcon />
-                    </a>
-                </div>
+interface PortfolioItemProps {
+    image: string;
+    category: string;
+    title: string;
+    description: string;
+    link: string;
+}
+
+const PortfolioCard: React.FC<PortfolioItemProps> = ({ image, category, title, description, link }) => (
+    <div className="group relative overflow-hidden rounded-lg shadow-2xl">
+        
+        {/* ESTA É A LINHA QUE ESTAVA FALTANDO */}
+        <img src={image} alt={title} className="w-full h-[450px] object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+        <div className="absolute bottom-0 left-0 p-6 md:p-8 w-full text-white">
+            <p className="text-sm font-semibold text-brand-blue uppercase tracking-wider mb-1">{category}</p>
+            <h3 className="text-2xl md:text-3xl font-heading font-bold mb-2">{title}</h3>
+            <div className="max-h-0 opacity-0 transition-all duration-500 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4">
+                <p className="text-brand-gray mb-4 text-base">{description}</p>
+                <a href={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center font-bold text-white hover:text-brand-blue transition-colors">
+                    Ver Projeto
+                    <ArrowUpRightIcon />
+                </a>
             </div>
         </div>
-    );
-};
+    </div>
+);
 
 
 const PortfolioSection: React.FC = () => {
-    return (
-        <section id="portfolio" className="py-20 md:py-32 bg-brand-dark">
-            <div className="container mx-auto px-6">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-heading font-bold text-brand-light">Nossos Projetos de Impacto</h2>
-                    <p className="text-lg text-brand-gray mt-4 max-w-2xl mx-auto">Veja como transformamos marcas em líderes de mercado.</p>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {projects.map((project, index) => (
-                        <PortfolioCard key={index} {...project} />
-                    ))}
-                </div>
-            </div>
-        </section>
-    );
+  return (
+    <section id="portfolio" className="py-20 md:py-32 bg-brand-card/30">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-brand-light">Nosso Portfolio</h2>
+          <p className="text-lg text-brand-gray mt-4 max-w-2xl mx-auto">Projetos que transformaram negócios e elevaram marcas.</p>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {portfolioItems.map((item, index) => (
+            <PortfolioCard key={index} {...item} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default PortfolioSection;

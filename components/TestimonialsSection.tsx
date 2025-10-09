@@ -3,22 +3,22 @@ import { QuoteIcon } from './icons';
 
 const testimonials = [
   {
-    quote: "A VOU não apenas redesenhou nossa marca, eles revitalizaram nosso negócio. O processo foi colaborativo e o resultado superou todas as nossas expectativas. Vimos um aumento de 40% no engajamento online.",
-    name: "Juliana Silva",
-    title: "CEO da InovaTech",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=128&h=128&q=80"
+    quote: "Quando eu precisei de serviços de Designer Gráfico para meu negócio e clientes, logo me veiona cabeça a equipe da VOU! Além de serem super confiáveis e nunca me deixarem na mão, a qualidade da entrega é impecável.",
+    name: "Flávia Popia",
+    title: "Agência Finds",
+    avatar: "https://i.postimg.cc/j2Bk4Mqv/Flavia-Popia.png"
   },
   {
-    quote: "O trabalho de posicionamento digital foi um divisor de águas. A equipe da VOU entendeu profundamente nosso público e criou uma estratégia de conteúdo que nos conectou de forma autêntica e eficaz.",
-    name: "Ricardo Mendes",
-    title: "Diretor de Marketing da Moda Consciente",
-    avatar: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=128&h=128&q=80"
+    quote: "A VOU deu uma cara pra Eleve, que era apenas um projeto que estava no papel. Com a VOU a Eleve ganhou vida!",
+    name: "Thamires Assis",
+    title: "Eleve Gestão",
+    avatar: "https://i.postimg.cc/3w6STLmY/Thamires-Assis.png"
   },
   {
-    quote: "Profissionalismo, criatividade e um foco incansável em resultados. Essa é a VOU. Eles nos entregaram uma identidade visual que finalmente reflete a qualidade dos nossos serviços.",
-    name: "Fernanda Costa",
-    title: "Fundadora da EduLearn",
-    avatar: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=128&h=128&q=80"
+    quote: "Utilizo serviços do Guilherme e da VOU desde 2021 e já recomendei para diversos colegas e amigos, sempre um trabalho e atendimento impecável e resultados excelentes, extremamente comprometidos e confiáveis.",
+    name: "Douglas Mota",
+    title: "Doug Trading",
+    avatar: "https://i.postimg.cc/mZqbnRty/Douglas-Consultor-de-Copy-e-Marketing.png"
   }
 ];
 

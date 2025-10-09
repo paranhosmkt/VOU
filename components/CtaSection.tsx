@@ -11,7 +11,7 @@ const CtaSection: React.FC = () => {
           Vamos conversar sobre como a VOU pode criar uma marca de impacto que reflete o verdadeiro valor do seu negócio.
         </p>
         <a
-          href="mailto:contato@vouagencia.com"
+          href="https://wa.me/5548999542785?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20transformar%20minha%20marca%20para%20gerar%20impacto."
           className="bg-gradient-to-r from-brand-purple to-brand-blue text-white font-bold text-lg py-4 px-12 rounded-md inline-block hover:opacity-90 transition-transform duration-300 transform hover:scale-105"
         >
           Vamos Conversar

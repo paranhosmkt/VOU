@@ -30,9 +30,12 @@ const Header: React.FC = () => {
     return (
         <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-brand-dark/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-                <div className="text-2xl font-heading font-bold text-white">
-                    AGÊNCIA VOU
-                </div>
+               <a href="/">
+    <img src="https://i.postimg.cc/fLwj0PdL/VOU.pngUI" 
+        alt="Logo da Agência VOU" 
+        className="h-10 w-auto" 
+    />
+</a>
                 <nav className="hidden md:flex space-x-8">
                     {navLinks.map(link => (
                         <a key={link.href} href={link.href} onClick={(e) => { e.preventDefault(); scrollTo(link.href); }} className="text-brand-gray hover:text-white transition-colors duration-300">

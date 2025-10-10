@@ -30,7 +30,7 @@ const Header: React.FC = () => {
     return (
         <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-brand-dark/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-               <a href="/">
+               <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
     <img src="https://i.postimg.cc/fLwj0PdL/VOU.pngUI" 
         alt="Logo da Agência VOU" 
         className="h-10 w-auto" 
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
                     ))}
                 </nav>
                 <a
-                    href="https://wa.me/5548999542785?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20transformar%20minha%20marca%20para%20gerar%20impacto."
+                    href="#contact"
                     onClick={(e) => { e.preventDefault(); scrollTo('#contact'); }}
                     className="hidden md:inline-block bg-gradient-to-r from-brand-purple to-brand-blue text-white font-bold py-2 px-6 rounded-md hover:opacity-90 transition-opacity duration-300"
                 >

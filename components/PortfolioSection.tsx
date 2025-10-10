@@ -14,14 +14,14 @@ const portfolioItems = [
     category: "Posicionamento Digital",
     title: "L&L Boutique",
     description: "Mais que uma boutique, um estilo de vida luxuoso e elegante.",
-    link: "https://drive.google.com/file/d/15T06049cbhsETSSf7jclTXtKjWQpYf1P/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1y3S0fTbkYnCAr9v-5aCs6GINCR2W8-lF/view?usp=sharing"
   },
   {
-    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "https://i.postimg.cc/LsyhNQ7t/AG-NCIA-6.png",
     category: "Rebranding Completo",
     title: "VOU",
     description: "A VOU era uma agência de marketing digital, hoje a VOU transforma marcas.",
-    link: "https://drive.google.com/file/d/15T06049cbhsETSSf7jclTXtKjWQpYf1P/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/175bRF6bVFZ5iccAIxtCouYT84J_sbblx/view?usp=drive_link"
   },
   {
     image: "https://i.postimg.cc/prkL9n2v/Gemini-Generated-Image-myazzimyazzimyaz.png",

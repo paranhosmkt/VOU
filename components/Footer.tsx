@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div className="flex space-x-6 mb-6 md:mb-0">
             <a href="https://www.linkedin.com/company/vou-agencia/" className="text-gray-500 hover:text-brand-blue transition-colors duration-300"><LinkedInIcon /></a>
             <a href="https://www.instagram.com/vou.agencia/" className="text-gray-500 hover:text-brand-blue transition-colors duration-300"><InstagramIcon /></a>
-            <a href="https://www.behance.net/voucreativ" className="text-gray-500 hover:text-brand-blue transition-colors duration-300"><BehanceIcon /></a>
+            <a href="https://www.behance.net/vouagencia" className="text-gray-500 hover:text-brand-blue transition-colors duration-300"><BehanceIcon /></a>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-gray-800 text-center text-gray-600 text-sm">

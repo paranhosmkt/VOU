@@ -7,21 +7,21 @@ const portfolioItems = [
     category: "Branding & Identidade Visual",
     title: "PETY",
     description: "Criamos uma marca divertida e que se conecta com a ideia de felicidade dos pets e como eles colorem nossa vida.",
-    link: "https://drive.google.com/file/d/15T06049cbhsETSSf7jclTXtKjWQpYf1P/view?usp=drive_link"
+    link: "https://www.behance.net/gallery/237139691/Pety-Rebranding"
   },
   {
     image: "https://i.postimg.cc/nh0tKkJS/ll.png",
-    category: "Posicionamento Digital",
+    category: "Rebranding",
     title: "L&L Boutique",
     description: "Mais que uma boutique, um estilo de vida luxuoso e elegante.",
-    link: "https://drive.google.com/file/d/1y3S0fTbkYnCAr9v-5aCs6GINCR2W8-lF/view?usp=sharing"
+    link: "https://www.behance.net/gallery/237144843/L-L-Boutique-Brand-Design"
   },
   {
-    image: "https://i.postimg.cc/LsyhNQ7t/AG-NCIA-6.png",
+    image: "https://i.postimg.cc/TY3dCRtT/VOU-Brandboards.png",
     category: "Rebranding Completo",
-    title: "VOU",
-    description: "A VOU era uma agência de marketing digital, hoje a VOU transforma marcas.",
-    link: "https://drive.google.com/file/d/175bRF6bVFZ5iccAIxtCouYT84J_sbblx/view?usp=drive_link"
+    title: "Dalonzzo Café",
+    description: "O grão moído, o café quentinho, os momentos inesquecíveis.",
+    link: "https://www.behance.net/gallery/237138625/Dalonzzo-caf-Brand-design"
   },
   {
     image: "https://i.postimg.cc/prkL9n2v/Gemini-Generated-Image-myazzimyazzimyaz.png",

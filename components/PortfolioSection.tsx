@@ -3,28 +3,28 @@ import { ArrowUpRightIcon } from './icons';
 
 const portfolioItems = [
   {
-    image: "https://i.postimg.cc/BbCfbcQj/Pety.png",
+    image: "https://i.postimg.cc/T37prtmz/Pety.png",
     category: "Branding & Identidade Visual",
     title: "PETY",
     description: "Criamos uma marca divertida e que se conecta com a ideia de felicidade dos pets e como eles colorem nossa vida.",
     link: "https://www.behance.net/gallery/237139691/Pety-Rebranding"
   },
   {
-    image: "https://i.postimg.cc/nh0tKkJS/ll.png",
+    image: "https://i.postimg.cc/Y00WcT1Y/L-L.png",
     category: "Rebranding",
     title: "L&L Boutique",
     description: "Mais que uma boutique, um estilo de vida luxuoso e elegante.",
     link: "https://www.behance.net/gallery/237144843/L-L-Boutique-Brand-Design"
   },
   {
-    image: "https://i.postimg.cc/TY3dCRtT/VOU-Brandboards.png",
+    image: "https://i.postimg.cc/RV8cmCp6/Dalonzzo.png",
     category: "Rebranding Completo",
     title: "Dalonzzo Café",
     description: "O grão moído, o café quentinho, os momentos inesquecíveis.",
     link: "https://www.behance.net/gallery/237138625/Dalonzzo-caf-Brand-design"
   },
   {
-    image: "https://i.postimg.cc/prkL9n2v/Gemini-Generated-Image-myazzimyazzimyaz.png",
+    image: "https://i.postimg.cc/c1zKg970/Yalla.png",
     category: "Material de Marca",
     title: "Yalla Consórcio",
     description: "Design de materiais corporativos, incluindo brochures e apresentações, que comunicam confiança e profissionalismo.",
